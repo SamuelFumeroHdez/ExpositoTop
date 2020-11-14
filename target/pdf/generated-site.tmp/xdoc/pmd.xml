@@ -1,0 +1,157 @@
+<?xml version="1.0"?><document xmlns="http://maven.apache.org/XDOC/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd"><properties>
+<title>PMD Results</title></properties>
+<body><section name="PMD Results">
+<p>The following document contains the results of <a class="externalLink" href="https://pmd.github.io">PMD</a> 6.21.0.</p></section><section name="Violations By Priority"><subsection name="Priority 3">
+<h4>es/ull/esit/utilities/ExpositoUtilities.java</h4>
+<table border="0">
+<tr class="a">
+<th>Rule</th>
+<th>Violation</th>
+<th>Line</th></tr>
+<tr class="b">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedprivatemethod">UnusedPrivateMethod</a></td>
+<td>Avoid unused private methods such as 'getFirstAppearance(int,int)'.</td>
+<td>23</td></tr>
+<tr class="a">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#collapsibleifstatements">CollapsibleIfStatements</a></td>
+<td>These nested if statements could be combined</td>
+<td>90&#x2013;93</td></tr>
+<tr class="b">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#emptycatchblock">EmptyCatchBlock</a></td>
+<td>Avoid empty catch blocks</td>
+<td>217&#x2013;218</td></tr>
+<tr class="a">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#emptycatchblock">EmptyCatchBlock</a></td>
+<td>Avoid empty catch blocks</td>
+<td>226&#x2013;227</td></tr></table>
+<h4>es/ull/esit/utilities/PowerSet.java</h4>
+<table border="0">
+<tr class="b">
+<th>Rule</th>
+<th>Violation</th>
+<th>Line</th></tr>
+<tr class="a">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#classcastexceptionwithtoarray">ClassCastExceptionWithToArray</a></td>
+<td>This usage of the Collection.toArray() method will throw a ClassCastException.</td>
+<td>16</td></tr></table>
+<h4>top/TOPTWGRASP.java</h4>
+<table border="0">
+<tr class="b">
+<th>Rule</th>
+<th>Violation</th>
+<th>Line</th></tr>
+<tr class="a">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedlocalvariable">UnusedLocalVariable</a></td>
+<td>Avoid unused local variables such as 'newDepot'.</td>
+<td>176</td></tr>
+<tr class="b">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#collapsibleifstatements">CollapsibleIfStatements</a></td>
+<td>These nested if statements could be combined</td>
+<td>287&#x2013;289</td></tr></table></subsection><subsection name="Priority 4">
+<h4>top/TOPTWGRASP.java</h4>
+<table border="0">
+<tr class="a">
+<th>Rule</th>
+<th>Violation</th>
+<th>Line</th></tr>
+<tr class="b">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses">UselessParentheses</a></td>
+<td>Useless parentheses.</td>
+<td>221</td></tr>
+<tr class="a">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses">UselessParentheses</a></td>
+<td>Useless parentheses.</td>
+<td>282</td></tr></table>
+<h4>top/TOPTWSolution.java</h4>
+<table border="0">
+<tr class="b">
+<th>Rule</th>
+<th>Violation</th>
+<th>Line</th></tr>
+<tr class="a">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses">UselessParentheses</a></td>
+<td>Useless parentheses.</td>
+<td>211</td></tr>
+<tr class="b">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses">UselessParentheses</a></td>
+<td>Useless parentheses.</td>
+<td>245</td></tr></table></subsection></section><section name="Files"><subsection name="es/ull/esit/utilities/ExpositoUtilities.java">
+<table border="0">
+<tr class="a">
+<th>Rule</th>
+<th>Violation</th>
+<th>Priority</th>
+<th>Line</th></tr>
+<tr class="b">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedprivatemethod">UnusedPrivateMethod</a></td>
+<td>Avoid unused private methods such as 'getFirstAppearance(int,int)'.</td>
+<td>3</td>
+<td>23</td></tr>
+<tr class="a">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#collapsibleifstatements">CollapsibleIfStatements</a></td>
+<td>These nested if statements could be combined</td>
+<td>3</td>
+<td>90&#x2013;93</td></tr>
+<tr class="b">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#emptycatchblock">EmptyCatchBlock</a></td>
+<td>Avoid empty catch blocks</td>
+<td>3</td>
+<td>217&#x2013;218</td></tr>
+<tr class="a">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#emptycatchblock">EmptyCatchBlock</a></td>
+<td>Avoid empty catch blocks</td>
+<td>3</td>
+<td>226&#x2013;227</td></tr></table></subsection><subsection name="es/ull/esit/utilities/PowerSet.java">
+<table border="0">
+<tr class="b">
+<th>Rule</th>
+<th>Violation</th>
+<th>Priority</th>
+<th>Line</th></tr>
+<tr class="a">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#classcastexceptionwithtoarray">ClassCastExceptionWithToArray</a></td>
+<td>This usage of the Collection.toArray() method will throw a ClassCastException.</td>
+<td>3</td>
+<td>16</td></tr></table></subsection><subsection name="top/TOPTWGRASP.java">
+<table border="0">
+<tr class="b">
+<th>Rule</th>
+<th>Violation</th>
+<th>Priority</th>
+<th>Line</th></tr>
+<tr class="a">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedlocalvariable">UnusedLocalVariable</a></td>
+<td>Avoid unused local variables such as 'newDepot'.</td>
+<td>3</td>
+<td>176</td></tr>
+<tr class="b">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses">UselessParentheses</a></td>
+<td>Useless parentheses.</td>
+<td>4</td>
+<td>221</td></tr>
+<tr class="a">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses">UselessParentheses</a></td>
+<td>Useless parentheses.</td>
+<td>4</td>
+<td>282</td></tr>
+<tr class="b">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#collapsibleifstatements">CollapsibleIfStatements</a></td>
+<td>These nested if statements could be combined</td>
+<td>3</td>
+<td>287&#x2013;289</td></tr></table></subsection><subsection name="top/TOPTWSolution.java">
+<table border="0">
+<tr class="a">
+<th>Rule</th>
+<th>Violation</th>
+<th>Priority</th>
+<th>Line</th></tr>
+<tr class="b">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses">UselessParentheses</a></td>
+<td>Useless parentheses.</td>
+<td>4</td>
+<td>211</td></tr>
+<tr class="a">
+<td><a class="externalLink" href="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses">UselessParentheses</a></td>
+<td>Useless parentheses.</td>
+<td>4</td>
+<td>245</td></tr></table></subsection></section></body></document>

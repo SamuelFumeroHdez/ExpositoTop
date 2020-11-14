@@ -1,0 +1,5 @@
+<?xml version="1.0"?><document xmlns="http://maven.apache.org/XDOC/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd"><properties>
+<title>CPD Results</title></properties>
+<body><section name="CPD Results">
+<p>The following document contains the results of PMD's  <a class="externalLink" href="https://pmd.github.io/latest/pmd_userdocs_cpd.html">CPD</a> 6.21.0.</p></section><section name="Duplications">
+<p>CPD found no problems in your source code.</p></section></body></document>

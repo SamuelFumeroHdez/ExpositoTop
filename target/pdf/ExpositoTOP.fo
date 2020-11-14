@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"><fo:layout-master-set>
+<fo:simple-page-master master-name="cover-page" page-width="8.27in" page-height="11.70in" margin-top="0.625in" margin-bottom="0.6in" margin-left="1in" margin-right="1in">
+<fo:region-body margin-top="0.7in" /></fo:simple-page-master>
+
+<fo:simple-page-master master-name="toc" page-width="8.27in" page-height="11.70in" margin-top="0.625in" margin-bottom="0.6in" margin-left="1in" margin-right="1in">
+<fo:region-body margin-top="0.7in" margin-bottom="0.8in" />
+<fo:region-before extent="0.35in" />
+<fo:region-after extent="0.125in" /></fo:simple-page-master>
+
+<fo:simple-page-master master-name="body" page-width="8.27in" page-height="11.70in" margin-top="0.625in" margin-bottom="0.6in" margin-left="1in" margin-right="1in">
+<fo:region-body margin-top="0.7in" margin-bottom="0.8in" />
+<fo:region-before extent="0.35in" />
+<fo:region-after extent="0.125in" /></fo:simple-page-master>
+</fo:layout-master-set>
+<fo:bookmark-tree>
+<fo:bookmark internal-destination="./toc"><fo:bookmark-title>Table Of Content</fo:bookmark-title></fo:bookmark>
+<fo:bookmark internal-destination="./project-info"><fo:bookmark-title>Project Reports</fo:bookmark-title>
+<fo:bookmark internal-destination="./cpd"><fo:bookmark-title>CPD</fo:bookmark-title></fo:bookmark>
+<fo:bookmark internal-destination="./pmd"><fo:bookmark-title>PMD</fo:bookmark-title></fo:bookmark></fo:bookmark></fo:bookmark-tree>
+<fo:page-sequence master-reference="cover-page">
+<fo:flow flow-name="xsl-region-body">
+<fo:block text-align="center"><fo:table table-layout="fixed" width="100%" >
+
+<fo:table-column column-width="3.125in" />
+<fo:table-column column-width="3.125in" /><fo:table-body>
+<fo:table-row height="1.5in"><fo:table-cell><fo:block /></fo:table-cell><fo:table-cell><fo:block /></fo:table-cell></fo:table-row><fo:table-row keep-with-previous="always" height="0.014in">
+
+<fo:table-cell number-columns-spanned="2">
+<fo:block line-height="0.014in">
+<fo:leader leader-length.optimum="100%" leader-pattern="dots" rule-thickness="1pt" color="#454545" /></fo:block></fo:table-cell></fo:table-row>
+<fo:table-row height="7.447in">
+<fo:table-cell number-columns-spanned="2"><fo:table table-layout="fixed" width="100%" >
+
+<fo:table-column column-width="2.083in" />
+<fo:table-column column-width="2.083in" />
+<fo:table-column column-width="2.083in" /><fo:table-body><fo:table-row>
+<fo:table-cell number-columns-spanned="3"><fo:block />
+<fo:block space-before="3.2235in" /></fo:table-cell></fo:table-row><fo:table-row><fo:table-cell>
+<fo:block space-after="0.5in" /></fo:table-cell>
+<fo:table-cell padding-start="0.2in" border-left-style="dotted" border-left-width="0.1pt" border-left-color="#000000" font-family="monospace" linefeed-treatment="preserve" wrap-option="no-wrap" keep-together="always" white-space-collapse="false" number-columns-spanned="2">
+<fo:block font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always" font-size="16pt" font-weight="bold" text-align="left" display-align="center" space-after="0.5in">ExpositoTOP</fo:block></fo:table-cell></fo:table-row><fo:table-row><fo:table-cell><fo:block /></fo:table-cell>
+<fo:table-cell padding-after="0.2in" border-bottom-style="dotted" border-bottom-width="0.1pt" border-bottom-color="#000000" padding-start="0.2in" border-left-style="dotted" border-left-width="0.1pt" border-left-color="#000000" font-family="monospace" linefeed-treatment="preserve" wrap-option="no-wrap" keep-together="always" white-space-collapse="false" number-columns-spanned="2">
+<fo:block font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always" font-size="12pt" font-weight="bold" text-align="left" display-align="center">v. 1.0-SNAPSHOT</fo:block>
+<fo:block font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always" font-size="12pt" font-weight="bold" text-align="left" display-align="center">Project Documentation</fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:table-cell></fo:table-row>
+<fo:table-row height="0.014in">
+<fo:table-cell number-columns-spanned="2"><fo:block space-after="0.2in" line-height="0.014in">
+
+<fo:leader leader-length.optimum="100%" leader-pattern="dots" rule-thickness="1pt" color="#454545" /></fo:block></fo:table-cell></fo:table-row><fo:table-row>
+<fo:table-cell number-columns-spanned="2"><fo:block />
+<fo:block space-before="0.2in" /></fo:table-cell></fo:table-row>
+<fo:table-row height="0.3in"><fo:table-cell><fo:block font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always" font-size="12pt" font-weight="bold" text-align="left" display-align="center" height="0.3in">samuel</fo:block></fo:table-cell><fo:table-cell><fo:block font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always" font-size="12pt" font-weight="bold" text-align="right" display-align="center" height="0.3in">2020-11-14</fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:block></fo:flow></fo:page-sequence><fo:page-sequence master-reference="toc" initial-page-number="1" format="i">
+
+<fo:static-content flow-name="xsl-region-before"><fo:table table-layout="fixed" width="100%" >
+
+<fo:table-column column-width="5.625in" />
+<fo:table-column column-width="0.625in" />
+<fo:table-body>
+<fo:table-row>
+<fo:table-cell>
+<fo:block letter-spacing="2pt" font-family="Helvetica,sans-serif" font-size="6pt" color="#454545" text-align="left">Table Of Content</fo:block></fo:table-cell>
+<fo:table-cell>
+<fo:block font-family="Helvetica,sans-serif" font-size="9.5pt" text-align="right" color="black">
+<fo:page-number /></fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:static-content>
+<fo:static-content flow-name="xsl-region-after">
+<fo:block letter-spacing="2pt" font-family="Helvetica,sans-serif" font-size="6pt" color="#454545">&#169;2020, samuel &#8226; ALL RIGHTS RESERVED.</fo:block></fo:static-content>
+<fo:flow flow-name="xsl-region-body">
+<fo:block id="./toc">
+<fo:block>
+<fo:list-block>
+<fo:list-item><fo:list-item-label end-indent="6.375in" start-indent="-1in">
+
+<fo:block font-size="9.5pt" line-height="10pt" text-align="right" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always"></fo:block></fo:list-item-label><fo:list-item-body end-indent="1in" start-indent="0in">
+
+<fo:block line-height="10pt" space-after="6pt" font-size="16pt" font-weight="bold" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">Table Of Content</fo:block></fo:list-item-body></fo:list-item></fo:list-block></fo:block>
+<fo:block space-after.optimum="0em">
+<fo:leader leader-length.optimum="100%" leader-pattern="dots" rule-thickness="1pt" color="#454545" /></fo:block><fo:table table-layout="fixed" width="100%" >
+
+<fo:table-column column-width="0.45in" />
+<fo:table-column column-width="0.4in" />
+<fo:table-column column-width="0.4in" />
+<fo:table-column column-width="5in" /><fo:table-body>
+<fo:table-row keep-with-next="auto">
+<fo:table-cell display-align="after">
+<fo:block font-size="9.5pt" text-align="end" color="#A9A9A9" line-height="16pt" end-indent="6pt"></fo:block></fo:table-cell>
+<fo:table-cell display-align="after" number-columns-spanned="3"><fo:block font-size="12pt" font-weight="bold" space-before="18pt" font-family="Helvetica,sans-serif" line-height="16pt" text-align-last="justify" wrap-option="no-wrap">
+<fo:basic-link internal-destination="./toc">Table Of Content</fo:basic-link>
+<fo:leader leader-pattern="dots" leader-pattern-width="5pt" color="#454545" />
+<fo:inline font-family="Helvetica,sans-serif" font-size="9.5pt" text-align="right" color="black">
+<fo:page-number-citation ref-id="./toc" /></fo:inline></fo:block></fo:table-cell></fo:table-row>
+<fo:table-row keep-with-next="auto">
+<fo:table-cell display-align="after">
+<fo:block font-size="9.5pt" text-align="end" color="#A9A9A9" line-height="16pt" end-indent="6pt">1.</fo:block></fo:table-cell>
+<fo:table-cell display-align="after" number-columns-spanned="3"><fo:block font-size="12pt" font-weight="bold" space-before="18pt" font-family="Helvetica,sans-serif" line-height="16pt" text-align-last="justify" wrap-option="no-wrap">
+<fo:basic-link internal-destination="./project-info">Project Reports</fo:basic-link>
+<fo:leader leader-pattern="dots" leader-pattern-width="5pt" color="#454545" />
+<fo:inline font-family="Helvetica,sans-serif" font-size="9.5pt" text-align="right" color="black">
+<fo:page-number-citation ref-id="./project-info" /></fo:inline></fo:block></fo:table-cell></fo:table-row>
+<fo:table-row keep-with-next="auto">
+<fo:table-cell display-align="after">
+<fo:block font-size="9.5pt" text-align="end" color="#A9A9A9" line-height="16pt" end-indent="6pt">1.1.</fo:block></fo:table-cell>
+<fo:table-cell display-align="after" number-columns-spanned="3"><fo:block font-size="11pt" space-before="3pt" font-family="Helvetica,sans-serif" line-height="16pt" text-align-last="justify" wrap-option="no-wrap">
+<fo:basic-link internal-destination="./cpd">CPD</fo:basic-link>
+<fo:leader leader-pattern="dots" leader-pattern-width="5pt" color="#454545" />
+<fo:inline font-family="Helvetica,sans-serif" font-size="9.5pt" text-align="right" color="black">
+<fo:page-number-citation ref-id="./cpd" /></fo:inline></fo:block></fo:table-cell></fo:table-row>
+<fo:table-row keep-with-next="auto">
+<fo:table-cell display-align="after">
+<fo:block font-size="9.5pt" text-align="end" color="#A9A9A9" line-height="16pt" end-indent="6pt">1.2.</fo:block></fo:table-cell>
+<fo:table-cell display-align="after" number-columns-spanned="3"><fo:block font-size="11pt" space-before="3pt" font-family="Helvetica,sans-serif" line-height="16pt" text-align-last="justify" wrap-option="no-wrap">
+<fo:basic-link internal-destination="./pmd">PMD</fo:basic-link>
+<fo:leader leader-pattern="dots" leader-pattern-width="5pt" color="#454545" />
+<fo:inline font-family="Helvetica,sans-serif" font-size="9.5pt" text-align="right" color="black">
+<fo:page-number-citation ref-id="./pmd" /></fo:inline></fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:block></fo:flow></fo:page-sequence>
+<fo:page-sequence initial-page-number="0" master-reference="body">
+
+<fo:static-content flow-name="xsl-region-before"><fo:table table-layout="fixed" width="100%" >
+
+<fo:table-column column-width="5.625in" />
+<fo:table-column column-width="0.625in" />
+<fo:table-body>
+<fo:table-row>
+<fo:table-cell>
+<fo:block letter-spacing="2pt" font-family="Helvetica,sans-serif" font-size="6pt" color="#454545" text-align="left">1   CPD</fo:block></fo:table-cell>
+<fo:table-cell>
+<fo:block font-family="Helvetica,sans-serif" font-size="9.5pt" text-align="right" color="black">
+<fo:page-number /></fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:static-content>
+<fo:static-content flow-name="xsl-region-after">
+<fo:block letter-spacing="2pt" font-family="Helvetica,sans-serif" font-size="6pt" color="#454545">&#169;2020, samuel &#8226; ALL RIGHTS RESERVED.</fo:block></fo:static-content><fo:flow flow-name="xsl-region-body">
+
+<fo:block id="./cpd">
+<fo:list-block>
+<fo:list-item><fo:list-item-label end-indent="6.375in" start-indent="-1in">
+
+<fo:block font-size="9.5pt" line-height="10pt" text-align="right" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">
+<fo:block line-height="10pt" space-after="6pt" font-size="16pt" font-weight="bold" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">1</fo:block></fo:block></fo:list-item-label><fo:list-item-body end-indent="1in" start-indent="0in">
+
+<fo:block line-height="10pt" space-after="6pt" font-size="16pt" font-weight="bold" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">CPD</fo:block></fo:list-item-body></fo:list-item></fo:list-block></fo:block>
+<fo:block space-after.optimum="0em">
+<fo:leader leader-length.optimum="100%" leader-pattern="dots" rule-thickness="1pt" color="#454545" /></fo:block>
+<fo:block>
+
+<fo:block font-size="11pt" line-height="12pt" white-space-collapse="true" font-family="Garamond,serif">
+
+<fo:block font-size="12pt" font-weight="bold" space-before="18pt" space-after="6pt" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">1.1   CPD Results</fo:block>
+
+
+<fo:block space-before="3pt" space-after="6pt" font-size="11pt" line-height="12pt" white-space-collapse="true" font-family="Garamond,serif">The following document contains the results of PMD's  
+<fo:basic-link external-destination="https://pmd.github.io/latest/pmd_userdocs_cpd.html">
+<fo:inline color="green">CPD</fo:inline></fo:basic-link> 6.21.0.</fo:block>
+</fo:block>
+
+
+<fo:block font-size="11pt" line-height="12pt" white-space-collapse="true" font-family="Garamond,serif">
+
+<fo:block font-size="12pt" font-weight="bold" space-before="18pt" space-after="6pt" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">1.2   Duplications</fo:block>
+
+
+<fo:block space-before="3pt" space-after="6pt" font-size="11pt" line-height="12pt" white-space-collapse="true" font-family="Garamond,serif">CPD found no problems in your source code.</fo:block>
+</fo:block>
+
+</fo:block></fo:flow></fo:page-sequence>
+<fo:page-sequence initial-page-number="auto" master-reference="body">
+
+<fo:static-content flow-name="xsl-region-before"><fo:table table-layout="fixed" width="100%" >
+
+<fo:table-column column-width="5.625in" />
+<fo:table-column column-width="0.625in" />
+<fo:table-body>
+<fo:table-row>
+<fo:table-cell>
+<fo:block letter-spacing="2pt" font-family="Helvetica,sans-serif" font-size="6pt" color="#454545" text-align="left">2   PMD</fo:block></fo:table-cell>
+<fo:table-cell>
+<fo:block font-family="Helvetica,sans-serif" font-size="9.5pt" text-align="right" color="black">
+<fo:page-number /></fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:static-content>
+<fo:static-content flow-name="xsl-region-after">
+<fo:block letter-spacing="2pt" font-family="Helvetica,sans-serif" font-size="6pt" color="#454545">&#169;2020, samuel &#8226; ALL RIGHTS RESERVED.</fo:block></fo:static-content><fo:flow flow-name="xsl-region-body">
+
+<fo:block id="./pmd">
+<fo:list-block>
+<fo:list-item><fo:list-item-label end-indent="6.375in" start-indent="-1in">
+
+<fo:block font-size="9.5pt" line-height="10pt" text-align="right" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">
+<fo:block line-height="10pt" space-after="6pt" font-size="16pt" font-weight="bold" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">2</fo:block></fo:block></fo:list-item-label><fo:list-item-body end-indent="1in" start-indent="0in">
+
+<fo:block line-height="10pt" space-after="6pt" font-size="16pt" font-weight="bold" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">PMD</fo:block></fo:list-item-body></fo:list-item></fo:list-block></fo:block>
+<fo:block space-after.optimum="0em">
+<fo:leader leader-length.optimum="100%" leader-pattern="dots" rule-thickness="1pt" color="#454545" /></fo:block>
+<fo:block>
+
+<fo:block font-size="11pt" line-height="12pt" white-space-collapse="true" font-family="Garamond,serif">
+
+<fo:block font-size="12pt" font-weight="bold" space-before="18pt" space-after="6pt" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">2.1   PMD Results</fo:block>
+
+
+<fo:block space-before="3pt" space-after="6pt" font-size="11pt" line-height="12pt" white-space-collapse="true" font-family="Garamond,serif">The following document contains the results of 
+<fo:basic-link external-destination="https://pmd.github.io">
+<fo:inline color="green">PMD</fo:inline></fo:basic-link> 6.21.0.</fo:block>
+</fo:block>
+
+
+<fo:block font-size="11pt" line-height="12pt" white-space-collapse="true" font-family="Garamond,serif">
+
+<fo:block font-size="12pt" font-weight="bold" space-before="18pt" space-after="6pt" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">2.2   Violations By Priority</fo:block>
+
+
+<fo:block font-size="11pt" line-height="12pt" white-space-collapse="true" font-family="Garamond,serif">
+
+<fo:block font-size="9.5pt" font-weight="bold" space-before="18pt" space-after="5pt" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">2.2.1   Priority 3</fo:block>
+
+
+
+<fo:block font-size="11pt" line-height="12pt" white-space-collapse="true" font-family="Garamond,serif">
+
+<fo:block font-size="9.5pt" space-before="15pt" space-after="3pt" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">2.2.1.1   es/ull/esit/utilities/ExpositoUtilities.java</fo:block>
+
+
+
+<fo:block padding-before="9pt" padding-after="12pt">
+<fo:table table-omit-footer-at-break="false" table-layout="fixed" width="100%">
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+
+<fo:table-body>
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Rule</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Violation</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Line</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedprivatemethod">
+<fo:inline color="green">UnusedPrivateMethod</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Avoid unused private methods such as 'getFirstAppearance(int,int)'.</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+23</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#collapsibleifstatements">
+<fo:inline color="green">CollapsibleIfStatements</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+These nested if statements could be combined</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+90–93</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#emptycatchblock">
+<fo:inline color="green">EmptyCatchBlock</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Avoid empty catch blocks</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+217–218</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#emptycatchblock">
+<fo:inline color="green">EmptyCatchBlock</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Avoid empty catch blocks</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+226–227</fo:block>
+</fo:table-cell>
+</fo:table-row>
+</fo:table-body>
+</fo:table>
+</fo:block>
+
+</fo:block>
+
+
+<fo:block font-size="11pt" line-height="12pt" white-space-collapse="true" font-family="Garamond,serif">
+
+<fo:block font-size="9.5pt" space-before="15pt" space-after="3pt" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">2.2.1.2   es/ull/esit/utilities/PowerSet.java</fo:block>
+
+
+
+<fo:block padding-before="9pt" padding-after="12pt">
+<fo:table table-omit-footer-at-break="false" table-layout="fixed" width="100%">
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+
+<fo:table-body>
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Rule</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Violation</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Line</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#classcastexceptionwithtoarray">
+<fo:inline color="green">ClassCastExceptionWithToArray</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+This usage of the Collection.toArray() method will throw a ClassCastException.</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+16</fo:block>
+</fo:table-cell>
+</fo:table-row>
+</fo:table-body>
+</fo:table>
+</fo:block>
+
+</fo:block>
+
+
+<fo:block font-size="11pt" line-height="12pt" white-space-collapse="true" font-family="Garamond,serif">
+
+<fo:block font-size="9.5pt" space-before="15pt" space-after="3pt" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">2.2.1.3   top/TOPTWGRASP.java</fo:block>
+
+
+
+<fo:block padding-before="9pt" padding-after="12pt">
+<fo:table table-omit-footer-at-break="false" table-layout="fixed" width="100%">
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+
+<fo:table-body>
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Rule</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Violation</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Line</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedlocalvariable">
+<fo:inline color="green">UnusedLocalVariable</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Avoid unused local variables such as 'newDepot'.</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+176</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#collapsibleifstatements">
+<fo:inline color="green">CollapsibleIfStatements</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+These nested if statements could be combined</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+287–289</fo:block>
+</fo:table-cell>
+</fo:table-row>
+</fo:table-body>
+</fo:table>
+</fo:block>
+</fo:block>
+</fo:block>
+
+
+<fo:block font-size="11pt" line-height="12pt" white-space-collapse="true" font-family="Garamond,serif">
+
+<fo:block font-size="9.5pt" font-weight="bold" space-before="18pt" space-after="5pt" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">2.2.2   Priority 4</fo:block>
+
+
+
+<fo:block font-size="11pt" line-height="12pt" white-space-collapse="true" font-family="Garamond,serif">
+
+<fo:block font-size="9.5pt" space-before="15pt" space-after="3pt" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">2.2.2.1   top/TOPTWGRASP.java</fo:block>
+
+
+
+<fo:block padding-before="9pt" padding-after="12pt">
+<fo:table table-omit-footer-at-break="false" table-layout="fixed" width="100%">
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+
+<fo:table-body>
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Rule</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Violation</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Line</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses">
+<fo:inline color="green">UselessParentheses</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Useless parentheses.</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+221</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses">
+<fo:inline color="green">UselessParentheses</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Useless parentheses.</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+282</fo:block>
+</fo:table-cell>
+</fo:table-row>
+</fo:table-body>
+</fo:table>
+</fo:block>
+
+</fo:block>
+
+
+<fo:block font-size="11pt" line-height="12pt" white-space-collapse="true" font-family="Garamond,serif">
+
+<fo:block font-size="9.5pt" space-before="15pt" space-after="3pt" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">2.2.2.2   top/TOPTWSolution.java</fo:block>
+
+
+
+<fo:block padding-before="9pt" padding-after="12pt">
+<fo:table table-omit-footer-at-break="false" table-layout="fixed" width="100%">
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+
+<fo:table-body>
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Rule</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Violation</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Line</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses">
+<fo:inline color="green">UselessParentheses</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Useless parentheses.</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+211</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses">
+<fo:inline color="green">UselessParentheses</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Useless parentheses.</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+245</fo:block>
+</fo:table-cell>
+</fo:table-row>
+</fo:table-body>
+</fo:table>
+</fo:block>
+</fo:block>
+</fo:block>
+</fo:block>
+
+
+<fo:block font-size="11pt" line-height="12pt" white-space-collapse="true" font-family="Garamond,serif">
+
+<fo:block font-size="12pt" font-weight="bold" space-before="18pt" space-after="6pt" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">2.3   Files</fo:block>
+
+
+<fo:block font-size="11pt" line-height="12pt" white-space-collapse="true" font-family="Garamond,serif">
+
+<fo:block font-size="9.5pt" font-weight="bold" space-before="18pt" space-after="5pt" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">2.3.1   es/ull/esit/utilities/ExpositoUtilities.java</fo:block>
+
+
+
+<fo:block padding-before="9pt" padding-after="12pt">
+<fo:table table-omit-footer-at-break="false" table-layout="fixed" width="100%">
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+
+<fo:table-body>
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Rule</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Violation</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Priority</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="4">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Line</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedprivatemethod">
+<fo:inline color="green">UnusedPrivateMethod</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Avoid unused private methods such as 'getFirstAppearance(int,int)'.</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+3</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="4">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+23</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#collapsibleifstatements">
+<fo:inline color="green">CollapsibleIfStatements</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+These nested if statements could be combined</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+3</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="4">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+90–93</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#emptycatchblock">
+<fo:inline color="green">EmptyCatchBlock</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Avoid empty catch blocks</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+3</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="4">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+217–218</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#emptycatchblock">
+<fo:inline color="green">EmptyCatchBlock</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Avoid empty catch blocks</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+3</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="4">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+226–227</fo:block>
+</fo:table-cell>
+</fo:table-row>
+</fo:table-body>
+</fo:table>
+</fo:block>
+</fo:block>
+
+
+<fo:block font-size="11pt" line-height="12pt" white-space-collapse="true" font-family="Garamond,serif">
+
+<fo:block font-size="9.5pt" font-weight="bold" space-before="18pt" space-after="5pt" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">2.3.2   es/ull/esit/utilities/PowerSet.java</fo:block>
+
+
+
+<fo:block padding-before="9pt" padding-after="12pt">
+<fo:table table-omit-footer-at-break="false" table-layout="fixed" width="100%">
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+
+<fo:table-body>
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Rule</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Violation</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Priority</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="4">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Line</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#classcastexceptionwithtoarray">
+<fo:inline color="green">ClassCastExceptionWithToArray</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+This usage of the Collection.toArray() method will throw a ClassCastException.</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+3</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="4">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+16</fo:block>
+</fo:table-cell>
+</fo:table-row>
+</fo:table-body>
+</fo:table>
+</fo:block>
+</fo:block>
+
+
+<fo:block font-size="11pt" line-height="12pt" white-space-collapse="true" font-family="Garamond,serif">
+
+<fo:block font-size="9.5pt" font-weight="bold" space-before="18pt" space-after="5pt" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">2.3.3   top/TOPTWGRASP.java</fo:block>
+
+
+
+<fo:block padding-before="9pt" padding-after="12pt">
+<fo:table table-omit-footer-at-break="false" table-layout="fixed" width="100%">
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+
+<fo:table-body>
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Rule</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Violation</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Priority</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="4">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Line</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedlocalvariable">
+<fo:inline color="green">UnusedLocalVariable</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Avoid unused local variables such as 'newDepot'.</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+3</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="4">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+176</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses">
+<fo:inline color="green">UselessParentheses</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Useless parentheses.</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+4</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="4">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+221</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses">
+<fo:inline color="green">UselessParentheses</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Useless parentheses.</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+4</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="4">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+282</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#collapsibleifstatements">
+<fo:inline color="green">CollapsibleIfStatements</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+These nested if statements could be combined</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+3</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="4">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+287–289</fo:block>
+</fo:table-cell>
+</fo:table-row>
+</fo:table-body>
+</fo:table>
+</fo:block>
+</fo:block>
+
+
+<fo:block font-size="11pt" line-height="12pt" white-space-collapse="true" font-family="Garamond,serif">
+
+<fo:block font-size="9.5pt" font-weight="bold" space-before="18pt" space-after="5pt" font-family="Helvetica,sans-serif" color="#000000" keep-with-next="always">2.3.4   top/TOPTWSolution.java</fo:block>
+
+
+
+<fo:block padding-before="9pt" padding-after="12pt">
+<fo:table table-omit-footer-at-break="false" table-layout="fixed" width="100%">
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+<fo:table-column column-width="proportional-column-width(1)"/>
+
+<fo:table-body>
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Rule</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Violation</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Priority</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="7pt" display-align="after" background-color="#bbbbbb" color="white" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="4">
+<fo:block font-size="10pt" font-weight="bold" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Line</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses">
+<fo:inline color="green">UselessParentheses</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Useless parentheses.</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+4</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="4">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+211</fo:block>
+</fo:table-cell>
+</fo:table-row>
+
+
+<fo:table-row keep-together="auto" keep-with-next="auto">
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="1">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+
+<fo:basic-link external-destination="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses">
+<fo:inline color="green">UselessParentheses</fo:inline></fo:basic-link></fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="2">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+Useless parentheses.</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="3">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+4</fo:block>
+</fo:table-cell>
+
+<fo:table-cell padding-before="4pt" padding-after="1.5pt" background-color="#eeeeee" padding-start="2.5pt" padding-end="5pt" keep-together.within-column="always" column-number="4">
+<fo:block font-size="9pt" font-family="Helvetica,sans-serif" line-height="1.2em" text-align="left">
+245</fo:block>
+</fo:table-cell>
+</fo:table-row>
+</fo:table-body>
+</fo:table>
+</fo:block>
+</fo:block>
+</fo:block>
+
+</fo:block></fo:flow></fo:page-sequence></fo:root>
